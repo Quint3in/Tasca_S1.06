@@ -11,15 +11,12 @@ public class NoGenericMethods {
         this.element3 = element3;
     }
 
-    public Object getElement1() {
-        return element1;
-    }
-
-    public Object getElement2() {
-        return element2;
-    }
-
-    public Object getElement3() {
-        return element3;
+    @Override
+    public String toString() {
+        return "NoGenericMethods{" +
+                "element1=" + element1 +
+                ", element2=" + element2 +
+                ", element3=" + element3 +
+                '}';
     }
 }

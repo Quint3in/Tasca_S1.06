@@ -6,6 +6,8 @@ public class Main {
 
         GenericUtils.usePhone(smartphone);
 
+        System.out.println("----------------------");
+
         GenericUtils.useSmartphone(smartphone);
     }
 }

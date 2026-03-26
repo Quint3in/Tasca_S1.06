@@ -8,7 +8,7 @@ public class Main {
         NoGenericMethods a = new NoGenericMethods(one, two, three);
         NoGenericMethods b = new NoGenericMethods(two, three, one);
 
-        System.out.println(a.getElement1());
-        System.out.println(b.getElement1());
+        System.out.println(a);
+        System.out.println(b);
     }
 }
